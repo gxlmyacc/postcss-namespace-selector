@@ -1,0 +1,43 @@
+{
+  "name": "postcss-namespace-selector",
+  "description": "Prefix all CSS rules with a selector",
+  "version": "0.0.1",
+  "author": "gxlmyacc <gxl.mail@163.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "gxlmyacc/postcss-namespace-selector",
+  "bugs": "https://github.com/gxlmyacc/postcss-namespace-selector/issues",
+  "homepage": "https://github.com/gxlmyacc/postcss-namespace-selector",
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "find-up": "^4.1.0",
+    "postcss": "^7.0.0"
+  },
+  "devDependencies": {
+    "husky": "^3.0.0",
+    "istanbul": "~0.4.5",
+    "lint-staged": "^9.0.0",
+    "mocha": "~6.2.0",
+    "prettier": "^1.11.1"
+  },
+  "scripts": {
+  },
+  "prettier": {
+    "printWidth": 80,
+    "singleQuote": true
+  },
+  "keywords": [
+    "postcss",
+    "namespace",
+    "selectors",
+    "postcss-plugin",
+    "css",
+    "selector",
+    "plugin"
+  ],
+  "files": [
+    "index.js"
+  ]
+}
