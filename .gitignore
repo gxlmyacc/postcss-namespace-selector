@@ -1,7 +1,12 @@
+.idea/
+node_modules/
+temp/
+*/.idea/
+*/node_modules/
+analyzer/
+*/analyzer/
+.DS_Store
+*/.DS_Store
+demo/out/
+plugin/
 
-.DS_Store*
-*.log
-*.gz
-
-node_modules
-coverage
