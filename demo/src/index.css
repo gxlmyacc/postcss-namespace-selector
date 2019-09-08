@@ -1,12 +1,12 @@
+body .sel2, html {
+  height: 1px;
+}
+
 .sel1 .sel2 {
   height: 1px;
 }
 
 div .sel2 {
-  height: 1px;
-}
-
-body .sel2 {
   height: 1px;
 }
 

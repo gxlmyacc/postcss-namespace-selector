@@ -106,6 +106,9 @@ module.exports = function postcssnamespaceSelector(options) {
       rule.selectors = rule.selectors.map(selector => {
         if (options.exclude && excludeSelector(selector, options.exclude)) return selector;
 
+        if (['html', 'body'].includes(selector)) return selector;
+        if (selector.startsWith('body ') || selector.startsWith('html ')) return selector;
+
         if (options.transform) {
           let ret = options.transform(
             namespace,
