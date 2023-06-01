@@ -8,9 +8,6 @@
 - [Usage with PostCSS](#usage-with-postcss)
 - [Usage with Webpack](#usage-with-webpack)
 - [Options](#options)
-- [Maintainer](#maintainer)
-- [Contribute](#contribute)
-- [License](#license)
 
 ## Install
 

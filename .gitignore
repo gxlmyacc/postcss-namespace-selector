@@ -9,4 +9,5 @@ analyzer/
 */.DS_Store
 demo/out/
 plugin/
+.history
 
